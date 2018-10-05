@@ -1,3 +1,7 @@
+body{
+  font-family: barlow; sans-serif;
+}
+
 h1{
   font-size: 72px;
   color: #4A4A4A;
@@ -13,7 +17,6 @@ h2{
 h3{
   font-size: 40px;
   color: #4A4A4A;
-  font-family: barlow; sans-serif;
   text-align: center;
 
 }
@@ -21,7 +24,9 @@ p{
   font-size: 30px;
   color: #4A4A4A;
   font-family: barlow; sans-serif;
+  text-align: right;
 }
+
 .box-imagen{
   display: flex;
   justify-content: center;
@@ -29,6 +34,7 @@ p{
   height: 600px;
   margin: 0;
 }
+
 .image{
   width: 100%;
 
@@ -59,12 +65,54 @@ p{
   text-align: center;
   justify-content: center;
 }
-.presentacion{
+
+.presentation{
   font-size: 30px;
   color: #4A4A4A;
   font-family: barlow; sans-serif;
+  text-align: center;
 
 }
+
+.quote{
+  font-size: 50px;
+  color: #ADEEE5;
+  padding-bottom: 45px;
+}
+
+.proyectimage1{
+  width: 25%;
+  height: %;
+}
+.title-proyect1{
+  font-size: 50px;
+  color: #4A4A4A;
+  text-align: left;
+}
+.title-proyect{
+  font-size: 50px;
+  color: #4A4A4A;
+  text-align: center;
+}
+
+.proyects{
+  float: left;
+  margin-right: 100px;
+  margin-left: 300px;
+}
+
+
+.proyects2{
+  float: left;
+  margin-left: 100px;
+  }
+.explanation-proyect{
+  font-size: 23px;
+  color: #4A4A4A;
+  text-align: left;
+
+}
+
 
 .izq {
   float: left;
@@ -86,18 +134,17 @@ li {
 
 }
 .padre{
-  display: flex;
-  justify-content: space-between;
-  right: 0;
-  width: 40%;
-  margin: 0
+  text-align: right;
 }
 
 .image {
   padding: 20px;
 }
 
+p{
+  text-align: left;
+}
 .parrafo {
-  font-size: 17px;
-  text-align: right;
+  font-size: 55px;
+  padding-left: 25px;
 }
